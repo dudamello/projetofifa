@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1527904710 source:c:\users\felipe leal\documents\programacao\projetofifa\main.c
+	"englib.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+
+1527904672 c:\users\felipe leal\documents\programacao\projetofifa\englib.h
+

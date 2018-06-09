@@ -1,0 +1,27 @@
+
+pFile = fopen("log.txt","w");
+            for (n=0; n<3; n++) {
+                puts("Por favor, digite um nome: ");
+                setbuf(stdin, NULL);
+                fgets(nome,100,stdin);
+                fprintf(pFile, "Nome %d: %s", n+1, nome);
+            }
+            fclose(pFile);
+			
+            if ((fp = fopen ("log.txt", "w+")) == NULL ){
+                printf ("O arquivo nao pode ser aberto. \n" );
+                exit (1);
+            }
+            // Gravar arquivo
+            printf("Digite uma ou mais linhas (linha em branco para sair)\n");
+            do{
+                fgets (str,180,stdin);
+                fputs (str, fp);
+            } while (*str != '\n');
+            // Ler arquivo
+            rewind (fp);
+            while (!feof(fp)){
+                fgets (str, 180, fp);
+                printf("%s",str);
+            }
+            fclose (fp);

@@ -1,0 +1,32 @@
+0,Russia,UEFA
+1,Germany,UEFA
+2,Brazil,CONMEBOL
+3,Portugal,UEFA
+4,Argentina,CONMEBOL
+5,Belgium,UEFA
+6,Poland,UEFA
+7,France,UEFA
+8,Spain,UEFA
+10,Peru,CONMEBOL
+11,Switzerland,UEFA
+12,England,UEFA
+13,Colombia,CONMEBOL
+16,Mexico,CONCACAF
+17,Uruguay,CONMEBOL
+18,Croatia,UEFA
+19,Denmark,UEFA
+21,Iceland,UEFA
+22,Costa Rica,CONCACAF
+25,Sweden,UEFA
+28,Tunisia,CAF
+30,Egypt,CAF
+32,Senegal,CAF
+34,Iran,AFC
+38,Serbia,UEFA
+41,Nigeria,CAF
+43,Australia,AFC
+44,Japan,AFC
+48,Morocco,CAF
+49,Panama,CONCACAF
+62,Korea Republic,AFC
+63,Saudi Arabia,AFC
